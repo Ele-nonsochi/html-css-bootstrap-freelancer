@@ -3,36 +3,36 @@
     --bs-primary-rgb: 26,188,156;
 }
 
-.btn-outline-primary {
+.btn-bars {
     color: #76787c;
     border-color: #ffffff;
 }
 
-.star-icon{
-    position: relative;
+.btn-download{
+    color: white;
+    border-color: white;
 }
 
 .star-icon::before{
     content: "";
-    position: absolute;
+    display: inline-block;
     left: 4px;
     width: 20%;
     height: 4px;
     background-color: white;
-    transform: translateY(10px);
 }
 
 .star-icon::after{
     content: "";
-    position: absolute;
-    right: 4px;
+    display: inline-block;
+    right:4px;
     width: 20%;
     height: 4px;
     background-color: white;
-    transform: translateY(10px);
 }
 
 .star-icon-porfolio::before,
 .star-icon-porfolio::after{
     background-color: black;
 }
+
