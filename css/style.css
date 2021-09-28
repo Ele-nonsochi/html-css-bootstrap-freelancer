@@ -1,0 +1,38 @@
+:root{
+    --bs-secondary-rgb: 44,62,80;
+    --bs-primary-rgb: 26,188,156;
+}
+
+.btn-outline-primary {
+    color: #76787c;
+    border-color: #ffffff;
+}
+
+.star-icon{
+    position: relative;
+}
+
+.star-icon::before{
+    content: "";
+    position: absolute;
+    left: 4px;
+    width: 20%;
+    height: 4px;
+    background-color: white;
+    transform: translateY(10px);
+}
+
+.star-icon::after{
+    content: "";
+    position: absolute;
+    right: 4px;
+    width: 20%;
+    height: 4px;
+    background-color: white;
+    transform: translateY(10px);
+}
+
+.star-icon-porfolio::before,
+.star-icon-porfolio::after{
+    background-color: black;
+}
