@@ -1,5 +1,5 @@
 :root{
-    --bs-secondary-rgb: 44,62,80;
+    --bs-secondary-rgb: 58,84,109;
     --bs-primary-rgb: 26,188,156;
 }
 
@@ -34,5 +34,33 @@
 .star-icon-porfolio::before,
 .star-icon-porfolio::after{
     background-color: black;
+}
+
+.label-border{
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+}
+
+.icon-social{
+    margin: 2px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.icon-social-fb{
+    margin: 2px;
+    padding:10px 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.text-attention{
+    color: rgb(33,166,145);
+}
+
+.bg-footer{
+    background-color: #2C3E50;
 }
 
